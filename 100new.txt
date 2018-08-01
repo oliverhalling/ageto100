@@ -1,2 +1,5 @@
 name = input('What is your name?:' )
-print(name)
+age = int(input('What is your Age?:'))
+print("hello", name, "you are looking amazing for", age)
+hundred = str((100 - age)+ 2018)
+print("You will be 100 in the year off:", hundred)
